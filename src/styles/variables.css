@@ -1,0 +1,13 @@
+:root {
+  --color-bg: #000000;
+  --color-red: #FF0000;
+  --color-yellow: #FFD700;
+  --color-gray-dark: #1A1A1A;
+  --color-gray-light: #E0E0E0;
+  --color-white: #FFFFFF;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-yellow);
+  font-family: 'Orbitron', sans-serif; /* estilo gamer */
+}

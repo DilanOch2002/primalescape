@@ -1,0 +1,32 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-bg);
+  gap: 1rem;
+}
+
+.title {
+  color: var(--color-red);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px var(--color-yellow);
+}
+
+.btn {
+  background: none;
+  border: 2px solid var(--color-yellow);
+  color: var(--color-yellow);
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-red);
+  border-color: var(--color-red);
+  color: var(--color-white);
+}
