@@ -6,8 +6,37 @@
 
 html, body {
   height: 100%;
+  font-family: 'Orbitron', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-yellow);
-  font-family: 'Orbitron', sans-serif;
   overflow-x: hidden;
+}
+
+/* Quitar scroll feo en proyectos gamer */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--color-red);
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--color-gray-dark);
+}
+
+/* Para que todas las secciones tengan misma base */
+section {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+/* Enlaces base */
+a {
+  color: var(--color-yellow);
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
 }
