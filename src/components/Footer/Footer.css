@@ -1,23 +1,25 @@
 .footer {
-  background-color: #000;
-  color: var(--color-yellow);
-  text-align: center;
-  padding: 2rem 0;
+padding: 2rem;
+text-align: center;
+background: #0d0d0d;
+color: white;
 }
+
 
 .socials {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+margin-top: 1rem;
+display: flex;
+justify-content: center;
+gap: 1.5rem;
 }
+
 
 .socials a {
-  color: var(--color-yellow);
-  text-decoration: none;
-  transition: color 0.3s ease;
+color: #ff4655;
+transition: 0.3s;
 }
 
+
 .socials a:hover {
-  color: var(--color-red);
+color: white;
 }

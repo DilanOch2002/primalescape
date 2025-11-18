@@ -1,19 +1,21 @@
-import './Hero.css';
-import videoBg from '../../assets/videos/intro.mp4';
+import "./Hero.css";
+import heroBg from "../../assets/images/hero-bg.jpg";
+
 
 const Hero = () => {
-  return (
-    <section className="hero-container">
-      <video autoPlay loop muted playsInline className="video-bg">
-        <source src={videoBg} type="video/mp4" />
-      </video>
-      <div className="hero-content">
-        <h1>PRIMAL ESCAPE</h1>
-        <p>Sobrevive. Evoluciona. Escapa.</p>
-        <button>Entrar</button>
-      </div>
-    </section>
-  );
+return (
+<section className="hero">
+<img src={heroBg} className="hero-img" />
+
+
+<div className="hero-content">
+<h1>PRIMAL ESCAPE</h1>
+<p>Sobrevive • Evoluciona • Domina</p>
+<button>Jugar Ahora</button>
+</div>
+</section>
+);
 };
+
 
 export default Hero;
